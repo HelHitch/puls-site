@@ -1,0 +1,46 @@
+.benefits {
+  color: $text2;
+  background-color: #f6f6f6;
+  min-height: 274px;
+  padding: 70px 0 83px 0;
+  h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    max-width: 952px;
+    font-family: "MuseoModerno", sans-serif;
+  }
+  &__item {
+    max-width: 237px;
+    align-content: center;
+    text-align: center;
+    img {
+      width: 70px;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 35px;
+    }
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 20px;
+  }
+  &__subtitle {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  &__school {
+    color: $main-color;
+    font-family: "MuseoModerno", sans-serif; /*заменить на лайт*/
+  }
+}
