@@ -1,0 +1,26 @@
+.feed-form {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  max-width: 290px;
+  input {
+    height: 54px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: $placeholder-color;
+    padding-left: 21px;
+    -webkit-appearance: none;
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    &:nth-last-child(3) {
+      margin-bottom: 20px;
+    }
+  }
+}
