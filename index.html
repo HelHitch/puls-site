@@ -92,7 +92,25 @@
           <p class="consultation__subtitle">
             Просто заполните форму заявки и мы перезвоним вам в течении 10 минут
           </p>
-          <form action=""></form>
+          <!-- action зачастую реализован php, могут быть методы get/post -->
+          <form action="#" class="feed-form">
+            <input name="name" type="text" placeholder="Ваше имя" required />
+            <!-- Валидация формы HTML5 -->
+            <input
+              name="number"
+              type="number"
+              placeholder="Ваш телефон"
+              required
+            />
+            <!--type:number - только числа-->
+            <input
+              name="email"
+              type="email"
+              placeholder="Ваш E-mail"
+              required
+            />
+            <button class="button button_submit">заказать консультацию</button>
+          </form>
         </div>
       </div>
     </div>
