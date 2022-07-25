@@ -30,3 +30,22 @@
     line-height: 25px;
   }
 }
+
+//свичи слик-слайдера
+.slick {
+  &-prev,
+  &-next {
+    width: 30px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 50%;
+  }
+  &-prev {
+    left: 0;
+  }
+  &-next {
+    right: 0;
+  }
+}
