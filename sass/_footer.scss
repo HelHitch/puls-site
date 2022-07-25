@@ -1,0 +1,43 @@
+.footer {
+  max-height: 630px;
+  position: relative;
+  &__info {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $main-color;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 54px;
+    text-align: center;
+    color: $text1;
+    address {
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 20px;
+      font-style: normal;
+    }
+    &--tel {
+      text-decoration: none;
+      color: inherit;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 20px;
+      margin-top: 36px;
+    }
+    &--social {
+      margin-top: 26px;
+      height: 52px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 27px;
+      &_item {
+        display: block;
+        width: 52px;
+        height: 52px;
+      }
+    }
+  }
+}
