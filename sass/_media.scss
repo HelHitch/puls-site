@@ -80,6 +80,27 @@
       }
     }
   }
+  .catalog {
+    &__element {
+      margin: 0 auto;
+    }
+  }
+  .watch {
+    padding: 39px 20px;
+    margin-bottom: 0;
+  }
+  .catalog {
+    &__tabs {
+      flex-direction: column;
+      margin: 0 auto;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+    &__tab {
+      font-size: 12px;
+      width: 100%;
+    }
+  }
 }
 
 @media (max-width: 331px) {

@@ -1,48 +1,36 @@
 .watch {
-  padding: 81px 0;
+  max-height: 700px;
+  padding: 81px 20px;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+  margin-bottom: 40px;
   &__inner {
-    padding: 0 127px;
-    margin: 0 auto;
-    position: relative;
+    max-height: 527px;
     img {
       display: block;
+      text-align: center;
       margin: 0 auto;
-      width: 90%;
+      max-width: 100%;
     }
   }
-}
-
-// .slick-slide img {
-//   display: inline-block;
-//   width: 100%;
-// }
-
-.slick-dots {
-  list-style: none;
-  justify-content: center;
-  margin-top: 20px;
-  display: block;
-  li {
-    display: block;
-    border-radius: 100%;
-    width: 20px;
-    margin: 10px 0;
-    height: 20px;
-    background-color: $main-color;
-    opacity: 40%;
-    transition: all 0.5s ease;
-
-    button {
-      display: none;
-    }
+  .is-selected {
+    overflow: hidden;
   }
-  .slick-active {
-    transition: all 0.5s ease;
-    opacity: 100%;
+  //точки
+  .flickity-page-dots .dot {
+    display: none;
+  }
+
+  //стрелки
+  .flickity-button {
+    color: $main-color;
+  }
+  .flickity-viewport {
+    transition: height 0.2s;
+  }
+
+  //каждая карточка карусели
+  .carousel-cell {
+    width: 100%;
+    margin-right: 10px;
   }
 }

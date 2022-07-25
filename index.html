@@ -7,8 +7,7 @@
     <link rel="stylesheet" type="icon" href="" />
     <link
       rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
     />
     <link rel="stylesheet" href="css/font.css" />
     <link rel="stylesheet" href="css/style.min.css" />
@@ -121,12 +120,18 @@
     </div>
     <div class="watch">
       <div class="container">
-        <div class="watch watch__inner">
-          <div class="watch__list"><img src="img/slider/slide2.png" /></div>
+        <div class="watch watch__inner" data-flicky>
+          <div class="carousel-cell">
+            <img src="img/slider/slide2.png" />
+          </div>
 
-          <div class="watch__list"><img src="img/slider/slide1.png" /></div>
+          <div class="carousel-cell">
+            <img src="img/slider/slide1.png" />
+          </div>
 
-          <div class="watch__list"><img src="img/slider/slide3.png" /></div>
+          <div class="carousel-cell carousel-cell_3">
+            <img src="img/slider/slide3.png" />
+          </div>
         </div>
       </div>
     </div>
@@ -141,7 +146,7 @@
           <li class="catalog__tab"><div>для бега</div></li>
           <li class="catalog__tab"><div>для триатлона</div></li>
         </ul>
-        <div class="catalog__content">
+        <div class="catalog__content catalog__content_active">
           <div class="catalog-element">
             <div class="catalog-element__wrapper">
               <div class="catalog-element__main catalog-element__main_active">
@@ -173,7 +178,7 @@
                   </li>
                   <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
                 </ul>
-                <a href="*" class="catalog-element__link">НАЗАД</a>
+                <a href="*" class="catalog-element__link_back">НАЗАД</a>
               </div>
             </div>
 
@@ -217,7 +222,7 @@
                   </li>
                   <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
                 </ul>
-                <a href="*" class="catalog-element__link">НАЗАД</a>
+                <a href="*" class="catalog-element__link_back">НАЗАД</a>
               </div>
             </div>
 
@@ -261,7 +266,7 @@
                   </li>
                   <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
                 </ul>
-                <a href="*" class="catalog-element__link">НАЗАД</a>
+                <a href="*" class="catalog-element__link_back">НАЗАД</a>
               </div>
             </div>
 
@@ -305,7 +310,7 @@
                   </li>
                   <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
                 </ul>
-                <a href="*" class="catalog-element__link">НАЗАД</a>
+                <a href="*" class="catalog-element__link_back">НАЗАД</a>
               </div>
             </div>
 
@@ -349,7 +354,7 @@
                   </li>
                   <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
                 </ul>
-                <a href="*" class="catalog-element__link">НАЗАД</a>
+                <a href="*" class="catalog-element__link_back">НАЗАД</a>
               </div>
             </div>
 
@@ -393,7 +398,7 @@
                   </li>
                   <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
                 </ul>
-                <a href="*" class="catalog-element__link">НАЗАД</a>
+                <a href="*" class="catalog-element__link_back">НАЗАД</a>
               </div>
             </div>
 
@@ -423,11 +428,7 @@
     ></script>
     <script src="https://unpkg.com/default-passive-events"></script>
     <!-- Подключили серверный квери -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="js/script.js"></script>
-    <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-    <!-- Подключили скрипт слика -->
   </body>
 </html>

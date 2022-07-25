@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/HelHitch/puls-site/issues"
   },
-  "homepage": "https://github.com/HelHitch/puls-site#readme"
+  "homepage": "https://github.com/HelHitch/puls-site#readme",
+  "dependencies": {
+    "flickity": "^3.0.0"
+  }
 }
