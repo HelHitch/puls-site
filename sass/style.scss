@@ -1,5 +1,5 @@
 * {
-  font-family: "MuseoSans", sans-serif;
+  font-family: 'MuseoSans', sans-serif;
   box-sizing: border-box;
 }
 
@@ -13,15 +13,17 @@
   padding: 0;
 }
 
-@import "variables";
-@import "buttons";
-@import "mixins";
-@import "promo";
-@import "header";
-@import "benefits";
-@import "consultation";
-@import "forms";
-@import "slider";
-@import "catalog";
-@import "footer";
-@import "media";
+@import 'variables';
+@import 'buttons';
+@import 'mixins';
+@import 'promo';
+@import 'header';
+@import 'benefits';
+@import 'consultation';
+@import 'forms';
+@import 'slider';
+@import 'catalog';
+@import 'footer';
+@import 'modal';
+@import 'error';
+@import 'media';
