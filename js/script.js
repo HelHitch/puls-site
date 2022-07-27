@@ -74,7 +74,6 @@ $(document).ready(function () {
         $('.catalog-element__main .catalog-element__subtitle').eq(i).text()
       );
       $('.overlay, #order').fadeIn(500);
-      console.log($('label[class="error"]'));
     });
   });
 
@@ -119,4 +118,11 @@ $(document).ready(function () {
   validateForms('#consultationForm');
   validateForms('#consultation form');
   validateForms('#order form');
+
+  //маска номера
+  function maskForm(mask) {
+    $(mask).mask('+7 (999) 999-99-99');
+  }
+
+  maskForm('input[name="number"]');
 });
